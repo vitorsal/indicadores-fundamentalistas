@@ -9,18 +9,24 @@ output: html_document
 
  variável|localização =  tabela e acc.number ou tabela e coluna
 :-------:|:----------:
- Lucro/Prejuízo Consolidado do Período | fr.income.consolidated 3.11
- nº de ações | current.stock.composition number.of.stocks
+ lucro liquido = Lucro/Prejuízo Consolidado do Período | fr.income.consolidated 3.11
+ nº de ações = quantidade de ações | current.stock.composition number.of.stocks
  Patrimônio Líquido Consolidado | fr.liabilities.consolidated 2.03
  receita liquída = Receita de Venda de Bens e/ou Serviços | fr.income.consolidated 3.01
  Dividend Yield | history.dividends dividend.by.price
- 
+ valor dos dividendos | history.dividends value
+ ativo circulante | fr.assets.consolidated 1.01
+ passivo circulante | fr.assets.consolidated 2.01
  
  
 
 
 
 ## Indicadores de Balanço
+
+### Liquidez corrente (LC)
+
+$$LC=\frac{Ativo\ circulante}{passivo\ circulante}$$
 
 ### Valor patrimonial da ação (VPA)
 $$VPA=\frac{patrimônio\ líquido}{quantidade\ de\ ações}$$
