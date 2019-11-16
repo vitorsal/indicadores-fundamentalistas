@@ -7,10 +7,13 @@ output: html_document
 
 
 
- variável|localização
+ variável|localização =  tabela e acc.number ou tabela e coluna
 :-------:|:----------:
- lucro | teste
- 
+ Lucro/Prejuízo Consolidado do Período | fr.income.consolidated 3.11
+ nº de ações | current.stock.composition number.of.stocks
+ Patrimônio Líquido Consolidado | fr.liabilities.consolidated 2.03
+ receita liquída = Receita de Venda de Bens e/ou Serviços | fr.income.consolidated 3.01
+ Dividend Yield | history.dividends dividend.by.price
  
  
  
@@ -19,9 +22,12 @@ output: html_document
 
 ## Indicadores de Balanço
 
+### Valor patrimonial da ação (VPA)
+$$VPA=\frac{patrimônio\ líquido}{quantidade\ de\ ações}$$
+
 ### Lucro por Ação (LPA)
 
-teste
+
 
   $$LPA=\frac{Lucro\ Líquido}{Quantidade\ de\ ações}$$
 
@@ -41,12 +47,12 @@ teste
 ### Relação preço/valor patrimonial (P/VP)
 
 
- $$P/PV=\frac{cotação\ da\ ação}{valor patrimonial da ação(VPA)}$$
+ $$P/PV=\frac{cotação\ da\ ação}{valor\ patrimonial\ da\ ação(VPA)}$$
 
 ### Price Sales Ratio (PSR)
 
 
- $$ PSR=\frac{cotação\ da\ ação}{(receita\ líquida/quantidade\ de\ ações)}$$
+ $$PSR=\frac{cotação\ da\ ação}{(receita\ líquida/quantidade\ de\ ações)}$$
 
 ### Pay-Out
 
