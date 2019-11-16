@@ -1,0 +1,63 @@
+---
+title: "Indicadores_fundamentalistas"
+author: ""
+date: ""
+output: html_document
+---
+
+
+
+ variável|localização
+:-------:|:----------:
+ lucro | teste
+ 
+ 
+ 
+ 
+
+
+
+## Indicadores de Balanço
+
+### Lucro por Ação (LPA)
+
+teste
+
+  $$LPA=\frac{Lucro\ Líquido}{Quantidade\ de\ ações}$$
+
+
+## Indicadores de mercado
+
+### Preço/lucro (P/L)
+
+
+ $$P/L=\frac{Cotação\ da\ ação}{Lucro\ por\ ação}$$
+
+### Taxa de retorno do investimento (TR)
+
+
+ $$TR=\frac{1}{PL} * 100$$
+
+### Relação preço/valor patrimonial (P/VP)
+
+
+ $$P/PV=\frac{cotação\ da\ ação}{valor patrimonial da ação(VPA)}$$
+
+### Price Sales Ratio (PSR)
+
+
+ $$ PSR=\frac{cotação\ da\ ação}{(receita\ líquida/quantidade\ de\ ações)}$$
+
+### Pay-Out
+
+
+ $$Pay-out=( \frac{valor\ dos\ dividendos}{LPA})*100$$
+
+### Dividend Yield (DY)
+
+
+ $$DY=(\frac{valor\ dos\ dividendos}{cotação\ da\ ação})*100$$
+
+
+
+
